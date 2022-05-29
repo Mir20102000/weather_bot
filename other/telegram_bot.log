@@ -1,0 +1,74 @@
+2022-05-29 18:16:11,490 - telegram.ext.dispatcher -DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000001EA4BB2D700>
+2022-05-29 18:16:11,490 - apscheduler.scheduler -INFO - Scheduler started
+2022-05-29 18:16:11,490 - apscheduler.scheduler -DEBUG - Looking for jobs to run
+2022-05-29 18:16:11,490 - telegram.bot -DEBUG - Entering: get_me
+2022-05-29 18:16:11,490 - apscheduler.scheduler -DEBUG - No jobs; waiting until a job is added
+2022-05-29 18:16:11,931 - telegram.bot -DEBUG - {'can_read_all_group_messages': False, 'first_name': 'Weather bot', 'is_bot': True, 'id': 5444326275, 'can_join_groups': True, 'username': 'Mir2010200_bot', 'supports_inline_queries': False}
+2022-05-29 18:16:11,931 - telegram.bot -DEBUG - Exiting: get_me
+2022-05-29 18:16:11,931 - telegram.ext.updater -DEBUG - Bot:5444326275:dispatcher - started
+2022-05-29 18:16:11,931 - telegram.ext.updater -DEBUG - Bot:5444326275:updater - started
+2022-05-29 18:16:11,931 - telegram.ext.updater -DEBUG - Waiting for Dispatcher and polling to start
+2022-05-29 18:16:11,931 - telegram.ext.updater -DEBUG - Updater thread started (polling)
+2022-05-29 18:16:11,931 - telegram.ext.updater -DEBUG - Start network loop retry bootstrap del webhook
+2022-05-29 18:16:11,931 - telegram.ext.updater -DEBUG - Deleting webhook
+2022-05-29 18:16:11,935 - telegram.bot -DEBUG - Entering: delete_webhook
+2022-05-29 18:16:11,935 - telegram.ext.dispatcher -DEBUG - Dispatcher started
+2022-05-29 18:16:12,031 - telegram.bot -DEBUG - True
+2022-05-29 18:16:12,031 - telegram.bot -DEBUG - Exiting: delete_webhook
+2022-05-29 18:16:12,031 - telegram.ext.updater -DEBUG - Bootstrap done
+2022-05-29 18:16:12,031 - telegram.ext.updater -DEBUG - Start network loop retry getting Updates
+2022-05-29 18:16:12,031 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:16:22,167 - telegram.bot -DEBUG - No new updates found.
+2022-05-29 18:16:22,167 - telegram.bot -DEBUG - []
+2022-05-29 18:16:22,167 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:16:22,167 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:16:22,580 - telegram.bot -DEBUG - Getting updates: [471507366]
+2022-05-29 18:16:22,580 - telegram.bot -DEBUG - [<telegram.update.Update object at 0x000001EA4BB80100>]
+2022-05-29 18:16:22,580 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:16:22,580 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:16:22,580 - telegram.ext.dispatcher -DEBUG - Processing Update: {'message': {'caption_entities': [], 'message_id': 308, 'date': 1653837382, 'group_chat_created': False, 'entities': [{'offset': 0, 'type': 'bot_command', 'length': 7}], 'channel_chat_created': False, 'supergroup_chat_created': False, 'delete_chat_photo': False, 'photo': [], 'new_chat_photo': [], 'new_chat_members': [], 'text': '/getmap', 'chat': {'id': 517615441, 'type': 'private', 'first_name': 'Mikhail', 'username': 'M1sh4xD'}, 'from': {'first_name': 'Mikhail', 'is_bot': False, 'id': 517615441, 'username': 'M1sh4xD', 'language_code': 'en'}}, 'update_id': 471507366}
+2022-05-29 18:16:22,580 - telegram.ext.conversationhandler -DEBUG - selecting conversation (517615441, 517615441) with state None
+2022-05-29 18:16:22,580 - telegram.bot -DEBUG - Entering: send_message
+2022-05-29 18:16:23,091 - telegram.bot -DEBUG - {'caption_entities': [], 'message_id': 309, 'date': 1653837383, 'group_chat_created': False, 'entities': [], 'channel_chat_created': False, 'supergroup_chat_created': False, 'delete_chat_photo': False, 'photo': [], 'new_chat_photo': [], 'new_chat_members': [], 'text': '\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0438\u0441\u043a\u043e\u043c\u044b\u0439 \u0430\u0434\u0440\u0435\u0441.', 'chat': {'id': 517615441, 'type': 'private', 'first_name': 'Mikhail', 'username': 'M1sh4xD'}, 'from': {'first_name': 'Weather bot', 'is_bot': True, 'id': 5444326275, 'username': 'Mir2010200_bot'}}
+2022-05-29 18:16:23,091 - telegram.bot -DEBUG - Exiting: send_message
+2022-05-29 18:16:24,540 - telegram.bot -DEBUG - Getting updates: [471507367]
+2022-05-29 18:16:24,540 - telegram.bot -DEBUG - [<telegram.update.Update object at 0x000001EA4BB801C0>]
+2022-05-29 18:16:24,540 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:16:24,540 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:16:24,540 - telegram.ext.dispatcher -DEBUG - Processing Update: {'message': {'caption_entities': [], 'message_id': 310, 'date': 1653837384, 'group_chat_created': False, 'entities': [{'offset': 0, 'type': 'bot_command', 'length': 5}], 'channel_chat_created': False, 'supergroup_chat_created': False, 'delete_chat_photo': False, 'photo': [], 'new_chat_photo': [], 'new_chat_members': [], 'text': '/stop', 'chat': {'id': 517615441, 'type': 'private', 'first_name': 'Mikhail', 'username': 'M1sh4xD'}, 'from': {'first_name': 'Mikhail', 'is_bot': False, 'id': 517615441, 'username': 'M1sh4xD', 'language_code': 'en'}}, 'update_id': 471507367}
+2022-05-29 18:16:24,545 - telegram.ext.conversationhandler -DEBUG - selecting conversation (517615441, 517615441) with state 1
+2022-05-29 18:16:24,545 - telegram.bot -DEBUG - Entering: send_message
+2022-05-29 18:16:24,833 - telegram.bot -DEBUG - {'caption_entities': [], 'message_id': 311, 'date': 1653837384, 'group_chat_created': False, 'entities': [], 'channel_chat_created': False, 'supergroup_chat_created': False, 'delete_chat_photo': False, 'photo': [], 'new_chat_photo': [], 'new_chat_members': [], 'text': '\u0417\u0430\u0434\u0430\u0447\u0430 \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0430.', 'chat': {'id': 517615441, 'type': 'private', 'first_name': 'Mikhail', 'username': 'M1sh4xD'}, 'from': {'first_name': 'Weather bot', 'is_bot': True, 'id': 5444326275, 'username': 'Mir2010200_bot'}}
+2022-05-29 18:16:24,833 - telegram.bot -DEBUG - Exiting: send_message
+2022-05-29 18:16:34,663 - telegram.bot -DEBUG - No new updates found.
+2022-05-29 18:16:34,663 - telegram.bot -DEBUG - []
+2022-05-29 18:16:34,663 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:16:34,663 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:16:44,801 - telegram.bot -DEBUG - No new updates found.
+2022-05-29 18:16:44,801 - telegram.bot -DEBUG - []
+2022-05-29 18:16:44,802 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:16:44,802 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:16:54,865 - telegram.bot -DEBUG - No new updates found.
+2022-05-29 18:16:54,865 - telegram.bot -DEBUG - []
+2022-05-29 18:16:54,865 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:16:54,865 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:17:04,972 - telegram.bot -DEBUG - No new updates found.
+2022-05-29 18:17:04,972 - telegram.bot -DEBUG - []
+2022-05-29 18:17:04,972 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:17:04,972 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:17:15,210 - telegram.bot -DEBUG - No new updates found.
+2022-05-29 18:17:15,210 - telegram.bot -DEBUG - []
+2022-05-29 18:17:15,210 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:17:15,210 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:17:25,283 - telegram.bot -DEBUG - No new updates found.
+2022-05-29 18:17:25,283 - telegram.bot -DEBUG - []
+2022-05-29 18:17:25,283 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:17:25,283 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:17:35,383 - telegram.bot -DEBUG - No new updates found.
+2022-05-29 18:17:35,383 - telegram.bot -DEBUG - []
+2022-05-29 18:17:35,383 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:17:35,383 - telegram.bot -DEBUG - Entering: get_updates
+2022-05-29 18:17:45,525 - telegram.bot -DEBUG - No new updates found.
+2022-05-29 18:17:45,525 - telegram.bot -DEBUG - []
+2022-05-29 18:17:45,525 - telegram.bot -DEBUG - Exiting: get_updates
+2022-05-29 18:17:45,525 - telegram.bot -DEBUG - Entering: get_updates
