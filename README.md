@@ -1,4 +1,5 @@
 [![Build Status](https://scrutinizer-ci.com/g/M1sh4xD/java-course/badges/build.png?b=main)](https://scrutinizer-ci.com/g/M1sh4xD/java-course/build-status/main)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/M1sh4xD/java-course/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/M1sh4xD/java-course/?branch=main)
 # Отечественный Телеграм-бот на Yandex REST API.
 
 - Язык - Python 3.9
