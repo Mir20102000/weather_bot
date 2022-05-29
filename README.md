@@ -6,7 +6,7 @@
 - Yandex Weather API
 
 Телеграм-бот для отображения погоды в городе, который запрашивает пользователь.
-[Ссылка на бота](t.me/Mir2010200_bot)
+[Ссылка на бота](https://t.me/Mir2010200_bot)
 
 ## Зависимости проекта
 - [pymorphy2](https://pymorphy2.readthedocs.io/en/stable/)
