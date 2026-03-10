@@ -5,7 +5,7 @@
 - Язык - Python 3.9
 - Библиотека - aiogram
 - Yandex Geocoder API
-- Yandex Weather API
+- Yandex Weather API 
 
 Телеграм-бот для отображения погоды в городе, который запрашивает пользователь.
 [Ссылка на бота](https://t.me/Mir2010200_bot)
